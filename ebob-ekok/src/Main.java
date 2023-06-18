@@ -18,5 +18,12 @@ public class Main {
              }
         }
         System.out.println("Ebob = " +ebob);
+        
+        for(int i = 1; i<= (sayi1 * sayi2); i++){
+            if(sayi1 % i == 0 && sayi2 % i == 0){
+               System.out.println(i);
+                break;
+            }
+        }
     }
 }
